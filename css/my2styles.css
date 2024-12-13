@@ -1,0 +1,61 @@
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;  /* Font family for the entire body */
+    color: #333;                     /* Default font color */
+    background-color: #e6f7ff;       /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #00796b;       /* Dark teal background */
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;                    /* White font color for links */
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Content styling */
+.content {
+    background-color: #ffffff;       /* White background for content */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;             /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1, h2 {
+    color: #0066cc;                  /* Blue font color for headings */
+    font-family: 'Georgia', serif;   /* Font family for headings */
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #004d40;       /* Dark green background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Center alignment for Tableau */
+.center {
+    text-align: center;
+    margin: 20px 0;
+}
